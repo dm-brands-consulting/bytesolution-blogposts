@@ -1,64 +1,22 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Beschreibung
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Die Firma Byte Solution wünscht sich eine webbasierte Anwendung um Blogbeiträge (Artikel) zu veröffentlichen. Blogbeiträge beinhalten einen Titel, einen beliebig langen Text, eine oder mehrere Kategorien und ggf. ein Bild (z. B. als Titelbild). Außerdem kann jeder Blogbeitrag kommentiert werden. Ein Kommentar besteht aus einem Titel und einem Text.
 
-## About Laravel
+Die erste Version der Anwendung beinhaltet keinen Login. Daher kann grundsätzlich jede Person einen Blogbeitrag erstellen und auch kommentieren.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Aufgabe
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Entwickele auf Basis der oben genannten Beschreibung eine kleine webbasierte Software, um Blogbeitrage zu verwalten. Blogbeiträge sollen angelegt, bearbeitet und gelöscht werden können. Zu jedem Blogbeitrag sollen Kategorien zugewiesen werden können. Daher brauchen wir auch einen Bereich, um Kategorien zu verwalten (auch hier: anlegen, bearbeiten und löschen). Bedenke, dass ein Blogbeitrag mehrere Kategorien haben kann! Ein erstellter Blogbeitrag kann anschließend kommentiert werden. Kommentare müssen in der ersten Version nicht bearbeitet oder gelöscht werden können.
 
-## Learning Laravel
+## Umsetzung
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Klone das Laravel-Projekt aus dem folgenden GIT-Repository:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+git@github.com:dm-brands-consulting/bytesolution-blogposts.git
 
-## Laravel Sponsors
+Das Projekt enthält eine Startseite mit einem beispielhaften Blogbeitrag. Dieser ist allerdings nur eine Attrappe und dient zur Orientierung. Du kannst das Beispiel als Vorlage nehmen und weiterentwickeln (Ergänzungen sind explizit erwünscht).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Das Projekt wird mit dem Framework Laravel entwickelt. Die Anwendung soll getestet werden - gerne auch nach dem TDD Prinzip. Zur Aufgabe gehört es, die Installation durchzuführen und die Aufgabenbeschreibung umzusetzen. Die Umsetzung des Projektes und die Einrichtung einer Entwicklungsumgebung (z. B. XAMPP oder Docker) bleibt vollkommen Dir überlassen. 
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Sobald das Projekt fertiggestellt wurde, erstelle ein Pull-Request und wir schauen uns den Code an. Wir melden uns anschließend bei dir und besprechen zusammen das Ergebnis.
