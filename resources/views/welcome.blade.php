@@ -33,7 +33,7 @@
         <!-- First Blog Post example -->
         <div class="w-1/4 m-2 p-2 border">
             <div class="w-full h-32 justify-center px-2 py-2 bg-blue-100">
-                <div class="flex justify-center">Blog Post Image!!</div>
+                <div class="flex justify-center">Blog Post Image!</div>
             </div>
             <div>
                 <a href="#"><span class="font-bold">First Blog Post</span></a>
