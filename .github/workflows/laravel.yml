@@ -23,13 +23,11 @@ jobs:
     - name: Update Dependencies
       run: composer update
     - name: Meilisearch (latest version) setup with Docker
-      env:
-        SCOUT_DRIVER: meilisearch
-        MEILISEARCH_HOST: http://127.0.0.1:7700
-        MEILISEARCH_KEY: geheim
       run: docker run -d -p 7700:7700 getmeili/meilisearch:latest meilisearch --master-key=geheim --no-analytics
     - name: Generate key
       run: php artisan key:generate
+    - name: Install REDIS
+      run: sudo docker run -p 6379:6379 --name redis -d redis:3.2 redis-server --appendonly yes  --requirepass "geheim"
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Create Database
